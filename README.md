@@ -6,9 +6,9 @@ It supports **very large integers**, arbitrary number bases, and expands the ful
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✔ Reads JSON input
+###  Reads JSON input
 
 The input file contains `n` roots. Each root is given as:
 
@@ -40,14 +40,9 @@ Example input value:
 ```
 2122212201122002221120200210011020220200 (base 3)
 ```
-
-### No external JSON libraries
-
-Uses custom lightweight JSON parsing.
-
 ---
 
-## 📥 Input Format
+## Input Format
 
 Example JSON:
 
@@ -75,7 +70,7 @@ Example JSON:
 
 ---
 
-## 🔧 How to Compile
+## How to Compile
 
 ```
 javac hivelcode.java
@@ -84,8 +79,6 @@ javac hivelcode.java
 ---
 
 ## ▶️ How to Run
-
-You can run the program using **two commands**:
 
 ### **1️⃣ Compile the program**
 
@@ -145,7 +138,7 @@ P(x) = (1)*x^2 + (-11)*x^1 + (28)*x^0
 
 ---
 
-## 🧮 Logic Used
+## Logic Used
 
 1. Convert all roots to decimal (BigInteger).
 2. Sort the roots.
@@ -165,7 +158,7 @@ for each root r:
 ```
 
 
-## 🗂 File Structure
+## File Structure
 
 ```
 Hivel_PolynomialCode/
@@ -177,14 +170,10 @@ Hivel_PolynomialCode/
 
 ---
 
-## 🛠  Tools Used
+## Tools Used
 
 * Java 
 * JSON parsing
 * VS Code 
 
 ---
-
-## 👩‍💻 Author
-
-**Pallaini Bhargavi**
