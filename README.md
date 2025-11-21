@@ -85,19 +85,40 @@ javac hivelcode.java
 
 ## ▶️ How to Run
 
-### PowerShell / VS Code Terminal
+You can run the program using **two commands**:
+
+### **1️⃣ Compile the program**
+
+```
+javac hivelcode.java
+```
+
+### **2️⃣ Run with a JSON testcase**
+
+**PowerShell / VS Code Terminal:**
 
 ```
 Get-Content testcase1.json | java hivelcode
 ```
 
-### CMD (Command Prompt)
+Or for testcase 2:
+
+```
+Get-Content testcase2.json | java hivelcode
+```
+
+**Command Prompt (CMD):**
 
 ```
 java hivelcode < testcase1.json
 ```
 
+```
+java hivelcode < testcase2.json
+```
+
 ---
+
 
 ## 📤 Outputs
 
@@ -143,9 +164,6 @@ for each root r:
     P(x) = P(x) * (x - r)
 ```
 
-6. Display result.
-
----
 
 ## 🗂 File Structure
 
